@@ -1,7 +1,14 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-left: 500px;
+    flex-direction: row-reverse;
+    background-image: url("all_might.jpg");
+    background-repeat: no-repeat;
+    background-color:#2d3c8c;
+    color: white;
 
+    
 }
 
 hr {
@@ -31,7 +38,7 @@ hr {
     margin: 2.5px;
 
     /* TEXT */
-    color: black;
+    color: white;
     font-size: 36px;
     font-weight:bold;
     display: flex;
