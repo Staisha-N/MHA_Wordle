@@ -6,6 +6,10 @@ var col = 0; // current letter for that attempt
 
 var gameOver = false;
 
+window.onload = function(){
+    mainFunction();
+}
+
 async function populate() {
 
     const requestURL = 'https://staisha-n.github.io/MHA_words/MHA_words.json';
