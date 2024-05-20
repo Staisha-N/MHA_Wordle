@@ -64,5 +64,14 @@ hr {
     color: white;
     border-color: white;
 }
+
+#play-again {
+    font-size: 12px;
+    font-weight:bold;
+    color: #303c8c;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* Center the button horizontally */
+}
 /* Use # for id items and . for classes eg. #ID_item and .class_item */
 

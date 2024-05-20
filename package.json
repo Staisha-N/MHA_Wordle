@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "sqlite3": "^5.0.5"
-  }
+  },
+  "name": "mha_wordle",
+  "version": "1.0.0",
+  "main": "wordle.js",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "start": "http-server -c-1 ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
